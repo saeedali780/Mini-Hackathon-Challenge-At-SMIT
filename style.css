@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+}
+
+/* PRE LOADER */
+#pre-loader{
+    background: #a8ff35 url('assests/loader.gif') no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.ml-auto{
+    margin-left: 200px;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #f8f9fa;
+}
+.navbar{
+    color: #222;
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 20px;
+    padding-left: 50px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+     color: #222;
+}
+.navbar-nav li a{
+    color: black !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.border{
+    width: 150px;
+    padding-left: 20px !important;
+    border: 1px solid #222;
+    border-radius: 5px;
+}
+/* bannerSectiom */
+#banner{
+    color: black;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn{
+    width: 100px;
+    margin: 20px;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+}
+
+/* COMPANY ICONS SECTION */
+
+#company{
+    background: #f8f9fa;
+    padding: 5px 0; 
+}
+.company-icons img{
+    transition: 0.5s;
+    padding: 20px;
+}
+.company-icons a:hover img{
+    transform: translateY(-10px);
+}
+/* SERVICES SECTION */
+
+.services-title {
+    background-color: #b9ff66; /* Bright green background */
+    font-size: 30px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    display: inline-block;
+    color: black;
+    margin-right: 15px;
+}
+
+.services-description {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 600px; /* Adjust based on design width */
+}
+.card-custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+    border: 1px solid #222;
+    border-bottom: 5px solid #222;
+}
+.card-custom .h31{
+    width: 200px;
+    padding: 10px;
+    background: #b9ff66;
+}
+.card-custom h3{
+    width: 200px;
+    padding: 10px;
+    background:  #e7e9ec;
+}
+.icon{
+    width: 30px;
+    margin-right: 10px;
+}
+.card-left {
+    background-color: #e7e9ec; /* Light gray background */
+}
+
+.card-right {
+    background-color:  #b9ff66; /* Bright green background */
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+.learn-more-icon {
+    margin-left: 5px;
+}
+/* <!-- Accordion Section --> */
+.accordion-body{
+    background: #b9ff66;
+}
+.accordion-item-custom {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-button-custom {
+    background-color: #b9ff66 !important; /* Bright green background */
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion-button span{
+    color: #000;
+}
+.accordion-button-custom.collapsed {
+    background-color: #e7e9ec !important; /* Light gray background */
+}
+
+.accordion-content {
+    padding: 20px;
+    font-size: 14px;
+}
+.collapseOne div{
+    background-color: #b9ff66 !important;
+}
+/* CONTACT US SECTION */
+
+#contactUs{
+    background-color: #f8f8f8;
+}
+
+.textArea{
+    resize: none;
+}
+.contact-form {
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 15px;
+
+    margin: 50px ;
+    position: relative;
+}
+.contact-form label {
+    font-weight: bold;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact-form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+.custom-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.custom-radio input[type="radio"] {
+    margin-right: 10px;
+}
+.custom-radio label {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+/* FOOTER SECTION */
+.footer-button {
+    background-color: #a8ff35;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.footer-input-group {
+    background-color: #2f3243;
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer-input-group input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.footer-input-group input::placeholder {
+    color: #a0a0a0;
+}
+.footer-input-group .btn {
+    background-color: #a8ff35;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.social-links a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+.social-links a:hover {
+    color: #a8ff35;
+}
+.footer-links a {
+    color: #a0a0a0;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-links a:hover {
+    color: #fff;
+}
+.footer-bottom {
+    border-top: 1px solid #6c757d;
+    padding-top: 15px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+.footer1{
+    margin-top: 40px;
+    border-radius: 40px 40px 0 0;
+}
